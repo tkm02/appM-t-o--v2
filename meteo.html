@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meteo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="global">
+        <div class="container1 container">
+            <div id="pays">
+                <h2 class="pays">Pays</h2>
+                <span class="affichePays">X</span>
+            </div>
+            <div id="description">
+                <h2 class="pays">Description</h2>
+                <span class="description">lorem5</span>
+            </div>
+            
+        </div>
+        <div class="container2 container">
+            <h1>Météo</h1>
+            <span class="ville">A</span>
+            <div class="temperature">
+                <span class="degre">XX.X</span> °C
+            </div>
+            <form id="formulaire">
+                <input type="text" class="input" name="test" placeholder="Entrer une ville ici" x-webkit-speech>
+                <button type="submit">CHANGER DE VILLE</button>
+            </form>
+        </div>
+        <div class="container3 container">
+            <div id="temp-min">
+                <h2>Temperature Minimale</h2>
+                <span class="temp-min temp">X</span>
+            </div>
+            <div id="temp-max">
+                <h2>Temperature Maximale</h2>
+                <span class="temp-max temp">X</span>
+            </div>
+            <div id="humidite">
+                <h2>Humudité</h2>
+                <span class="humidite temp">X</span>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="meteo.js"></script>
+</body>
+</html>
